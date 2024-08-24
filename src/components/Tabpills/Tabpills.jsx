@@ -19,7 +19,7 @@ const Tabpills = () => {
 <Container>
       <Row>
 <h1>Risk Warning</h1>
-      <Col xs={4}>
+      <Col xs lg="4">
       <div className="blo-tabs">
         <div
           onClick={() => toggleTab(1)}
@@ -43,7 +43,7 @@ const Tabpills = () => {
       </div>
       </Col>
 
-      <Col xs={8}>
+      <Col xxs lg="8">
       <div className="content-tabs">
         <div className={toggleState === 1 ? "content active-content" : "content"}>
           <h1> <span className='text-orange'>Unique characteristics</span> of

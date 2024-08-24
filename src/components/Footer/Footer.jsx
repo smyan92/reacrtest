@@ -32,13 +32,13 @@ const Footer = () => {
     <div className='footer'>
     <Container>
       <Row className='pt-5 pb-4'>
-        <Col xs={4}>
+        <Col xs lg="4">
      <div className='d-flex flex-column'>
      <img className='ms-3 mb-3 footerLogo' src={Logo} alt="My Image" />
      <img className='ms-3 footerLogo' src={Scan} alt="My Image" />
      </div>
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -58,7 +58,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -68,7 +68,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -80,7 +80,7 @@ const Footer = () => {
         </Col>
       </Row>
       <Row>
-        <Col xs={4}>
+        <Col xs lg="4">
         <h4>Company</h4>
 
         <div class=" socialIcons mb-4">
@@ -100,7 +100,7 @@ const Footer = () => {
         </div>
         
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Community</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -110,7 +110,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -120,7 +120,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs={2}>
+        <Col xs lg="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -130,8 +130,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs={2}>
-        </Col>
+     
       </Row>
       <Row className='py-2' style={{ borderTop: '1px solid grey' }}>
         <p className='text-center'>© 2024 ultrapro.com. All Rights Reserved.</p>

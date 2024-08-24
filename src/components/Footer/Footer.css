@@ -17,10 +17,9 @@
 
 .footerImg {
     flex: 1 1 calc(25% - 50px); /* 4 items per row, accounting for gap */
-    padding: 10px;
     box-sizing: border-box;
     text-align: center;
-    width: 60px;
+    max-width: 30px;
 }
 .footerLogo
 {
