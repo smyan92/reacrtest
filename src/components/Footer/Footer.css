@@ -1,0 +1,28 @@
+.footer
+{
+    background-color: white;
+}
+.footerImg
+{
+    width: 200px;
+}
+
+/* styles.css */
+.socialIcons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Space between items */
+    width: 80%;
+}
+
+.footerImg {
+    flex: 1 1 calc(25% - 50px); /* 4 items per row, accounting for gap */
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 60px;
+}
+.footerLogo
+{
+    width: 200px;
+}

@@ -1,0 +1,45 @@
+/* src/Tabpills.css */
+.blo-tabs {
+    display: flex;
+    cursor: pointer;
+    margin-bottom: 20px;
+    flex-direction: column;
+  }
+  
+  .tabs {
+    padding: 10px 20px;
+    margin-right: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .active-tabs {
+  color: #FF8300;
+  }
+  .text-black 
+  {
+    color: #1E2329;
+  }
+  .text-grey
+  {
+    color: #707A8A;
+  }
+  
+  .content-tabs {
+    padding: 20px;
+    border-radius: 4px;
+  }
+  
+  .content {
+    display: none;
+  }
+  
+  .active-content {
+    display: block;
+  }
+  
+
+  .TabpillsComp
+  {
+    padding-top: 50px;
+    background-color: white;
+  }
