@@ -89,10 +89,10 @@ const Footer = () => {
         <img className='footerImg' src={Spotify} alt="My Image" />
         <img className='footerImg' src={Insta} alt="My Image" />
         <img className='footerImg' src={Telegram} alt="My Image" />
-        <img className='footerImg mt-ms-4' src={Fb} alt="My Image" />
-        <img className='footerImg mt-ms-4' src={Whatsapp} alt="My Image" />
-        <img className='footerImg mt-ms-4' src={Youtube} alt="My Image" />
-        <img className='footerImg mt-ms-4' src={Reddit} alt="My Image" />
+        <img className='footerImg mt-md-4' src={Fb} alt="My Image" />
+        <img className='footerImg mt-md-4' src={Whatsapp} alt="My Image" />
+        <img className='footerImg mt-md-4' src={Youtube} alt="My Image" />
+        <img className='footerImg mt-md-4' src={Reddit} alt="My Image" />
     </div>
    
         <div>
