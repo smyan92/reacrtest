@@ -1,18 +1,19 @@
 .footer
 {
-    background-color: white;
+    background-color:#F6F9FB;
 }
 .footerImg
 {
-    width: 200px;
+    object-fit: contain;
+    max-width: 30px;
 }
 
 /* styles.css */
 .socialIcons {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px; /* Space between items */
-    width: 80%;
+    gap: 15%;
+    width: 55%;
 }
 
 .footerImg {
@@ -23,5 +24,119 @@
 }
 .footerLogo
 {
-    width: 200px;
+    width: 60%;
 }
+.footerScan
+{
+    width: 40%;
+}
+
+
+
+
+
+  
+/* Responsive styles */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .titlebanner
+    {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+    .socialIcons {
+        gap: 10%;
+        width: 100%;
+    }
+    .footerImg {
+        max-width: 23px;
+    }
+    .footer li {
+        font-size: 16px;
+        line-height: 2;
+    }
+  }
+  
+  /* // Small devices (landscape phones, 576px and up) */
+  @media (min-width: 576px) and (max-width: 767.98px) {  
+
+    .footerImg {
+        flex: 1 1 calc(25% - 50px);
+        box-sizing: border-box;
+        text-align: center;
+        max-width: 25px;
+    }
+    .socialIcons {
+        gap: 14%;
+        width: 100%;
+    }
+    .footerScan {
+        width: 71%;
+    }
+    .footerLogo {
+        width: 79%;
+    }
+    .footer h4 {
+        font-size: 16px !important;
+    }
+    .footer li {
+        font-size: 16px;
+        line-height: 2;
+    }
+  }
+  
+  /* // Medium devices (tablets, 768px and up) */
+  @media (min-width: 768px) and (max-width: 991.98px) {  
+
+    .footerImg {
+        flex: 1 1 calc(25% - 50px);
+        box-sizing: border-box;
+        text-align: center;
+        max-width: 25px;
+    }
+    .socialIcons {
+        gap: 14%;
+        width: 100%;
+    }
+    .footerScan {
+        width: 71%;
+    }
+    .footerLogo {
+        width: 79%;
+    }
+    .footer h4 {
+        font-size: 18px !important;
+    }
+    .footer li {
+        font-size: 16px;
+        line-height: 2;
+    }
+  }
+  
+  /* // Large devices (desktops, 992px and up) */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+    .socialIcons {
+        gap: 9%;
+        width: 74%;
+    }
+
+  }
+  
+  /* // Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) and (max-width: 1400.98px) {   
+    .socialIcons {
+        gap: 15%;
+        width: 64%;
+    }
+      
+}
+  
+  /* // For 2k Monitors, (more than 1401 px) */
+  @media (min-width: 1401px) and (max-width: 1599.98px) {
+  }
+  
+  @media (min-width: 1600px) and (max-width: 2559.98px) {
+  }
+  
+  @media (min-width: 2560px) {
+  }

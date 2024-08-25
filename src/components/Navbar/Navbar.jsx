@@ -25,31 +25,23 @@ const MyNavbar = () => {
   };
 
   return ( 
-    <Navbar bg="dark" variant="dark" expand="lg"    style={{ 
-        height: expanded ? '100vh' : 'auto', 
-        backgroundColor: expanded ? 'white' : 'dark', // White background when expanded, dark otherwise
-        position: expanded ? 'fixed' : 'relative', // Fixed position when expanded
-        top: 0, // Ensure it stays at the top of the viewport
-        left: 0,
-        right: 0,
-        transition: 'height 0.3s ease, background-color 0.3s ease' // Smooth transition for height and background color
-      }}>
+    <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
-        <img className='logo' src={Logo} alt="My Image" />
+        <img className='logo me-xl-5 me-2' src={Logo} alt="My Image" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" onClick={handleToggleClick}/>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="#trade">Trade</Nav.Link>
+            <Nav.Link className='ms-xl-5' href="#trade">Trade</Nav.Link>
             <Nav.Link href="#academy">Academy</Nav.Link>
             <Nav.Link href="#exchange">Exchange</Nav.Link>
             <Nav.Link href="#swap">Swap</Nav.Link>
-            <Nav.Link href="#deposite">Deposit</Nav.Link>
-            <img className='icon' src={Download} alt="My Image" />
-            <Button variant="primary">Sign Up</Button>{' '}
-            <Button variant="outline-primary">Sign In</Button>{' '}
-            <img className='icon' src={Mode} alt="My Image" />
+            <Nav.Link className='me-xl-5 me-2' href="#deposite">Deposit</Nav.Link>
+            <img className='downloadIcon mb-lg-auto mb-3 icon ms-xl-5 ms-3 me-2 mt-md-auto mt-2 cursor-pointer' src={Download} alt="My Image" />
+            <Button className='mb-lg-0 mb-3'  variant="primary">Sign Up</Button>{' '}
+            <Button className='mb-lg-0 mb-3 ms-2' variant="outline-primary">Sign In</Button>{' '}
+            <img className='modeIcon icon mb-lg-auto mb-3 ms-2' src={Mode} alt="My Image" />
           </Nav>
         </Navbar.Collapse>
       </Container>

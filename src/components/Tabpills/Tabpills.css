@@ -43,3 +43,63 @@
     padding-top: 50px;
     background-color: white;
   }
+  .tabs 
+  {
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 20px;
+
+  }
+  .content-tabs
+  {
+    padding: 0px;
+  }
+  .tabimg
+  {
+    height: 300px;
+    width: 100%;
+    border-radius: 30px;
+  }
+
+
+
+
+  
+/* Responsive styles */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  .titlebanner
+  {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400.98px) {   
+}
+
+/* // For 2k Monitors, (more than 1401 px) */
+@media (min-width: 1401px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1600px) and (max-width: 2559.98px) {
+}
+
+@media (min-width: 2560px) {
+}

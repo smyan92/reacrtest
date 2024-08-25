@@ -58,3 +58,36 @@ ul{
 {
     z-index: 1000;
 } 
+.cursor-pointer
+{
+    cursor: pointer;
+}
+.btn 
+{
+    outline-color: transparent !important;
+}
+.btn:hover {
+    border-color: transparent;
+}
+.btn-primary:hover
+{
+    background-color: transparent;
+    border-color: #FF8300;
+    color: #1E2329;
+}
+
+.btn-primary {
+  
+    --bs-btn-border-color: #FF8300;
+   
+}
+.btn-outline-primary:hover
+{
+background-color: #FF8300;
+outline: 0px;
+}
+a:hover {
+    text-decoration: none;
+    color: #FF8300 !important;
+    opacity: 1;
+}

@@ -32,13 +32,14 @@ const Footer = () => {
     <div className='footer'>
     <Container>
       <Row className='pt-5 pb-4'>
-        <Col xs lg="4">
-     <div className='d-flex flex-column'>
-     <img className='ms-3 mb-3 footerLogo' src={Logo} alt="My Image" />
-     <img className='ms-3 footerLogo' src={Scan} alt="My Image" />
+      <Col className='text-md-start text-center ' sm={6} md={4} lg={4}>
+
+     <div className='d-flex flex-column justify-content-md-start justify-content-center'>
+     <img className=' ms-md-1 m-auto mb-4 footerLogo' src={Logo} alt="My Image" />
+     <img className='ms-md-1 m-auto footerScan' src={Scan} alt="My Image" />
      </div>
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center' xs md="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -48,7 +49,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center' sm="6" md="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -58,7 +59,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center' sm="6" md="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -68,7 +69,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center' sm="6" md="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -79,28 +80,28 @@ const Footer = () => {
         </ul>
         </Col>
       </Row>
-      <Row>
-        <Col xs lg="4">
-        <h4>Company</h4>
+      <Row >
+        <Col className='text-md-start text-center' sm="6" md="4">
+        <h4>Community</h4>
 
-        <div class=" socialIcons mb-4">
-        <img className='ms-3 footerImg' src={Social} alt="My Image" />
-        <img className='ms-3 footerImg' src={Spotify} alt="My Image" />
-        <img className='ms-3 footerImg' src={Insta} alt="My Image" />
-        <img className='ms-3 footerImg' src={Telegram} alt="My Image" />
-        <img className='ms-3 footerImg' src={Fb} alt="My Image" />
-        <img className='ms-3 footerImg' src={Whatsapp} alt="My Image" />
-        <img className='ms-3 footerImg' src={Youtube} alt="My Image" />
-        <img className='ms-3 footerImg' src={Reddit} alt="My Image" />
+        <div class=" socialIcons justify-content-md-start justify-content-center  mb-4">
+        <img className='footerImg' src={Social} alt="My Image" />
+        <img className='footerImg' src={Spotify} alt="My Image" />
+        <img className='footerImg' src={Insta} alt="My Image" />
+        <img className='footerImg' src={Telegram} alt="My Image" />
+        <img className='footerImg mt-ms-4' src={Fb} alt="My Image" />
+        <img className='footerImg mt-ms-4' src={Whatsapp} alt="My Image" />
+        <img className='footerImg mt-ms-4' src={Youtube} alt="My Image" />
+        <img className='footerImg mt-ms-4' src={Reddit} alt="My Image" />
     </div>
    
         <div>
-        <img className='ms-3 footerImg' src={Mail} alt="My Image" />
+        <img className='footerImg me-2' src={Mail} alt="My Image" />
           <a href="http://">info@ultraproex.com</a>
         </div>
         
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center mt-md-0 mt-4' sm="6" md="2">
         <h4>Community</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -110,7 +111,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center' sm="6" md="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -120,7 +121,7 @@ const Footer = () => {
           <li><a href="/privacy">Privacy Policy</a></li>
         </ul>
         </Col>
-        <Col xs lg="2">
+        <Col className='text-md-start text-center' sm="6" md="2">
         <h4>Company</h4>
         <ul className="footer-links">
           <li><a href="/about">About Us</a></li>
@@ -132,12 +133,15 @@ const Footer = () => {
         </Col>
      
       </Row>
-      <Row className='py-2' style={{ borderTop: '1px solid grey' }}>
-        <p className='text-center'>© 2024 ultrapro.com. All Rights Reserved.</p>
-      </Row>
+    
     </Container>
+    <div className='py-3 mt-4' style={{ borderTop: '1px solid #F7EDE2' }}>
+        <p className='text-center mb-0'>© 2024 ultrapro.com. All Rights Reserved.</p>
+      </div>
     </div>
   )
 }
 
 export default Footer
+
+

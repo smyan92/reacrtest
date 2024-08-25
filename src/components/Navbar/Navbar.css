@@ -2,7 +2,6 @@
 
 .navbar-brand {
     font-size: 1.5rem;
-    width: 20%;
   }
   
   .nav-link {
@@ -10,9 +9,10 @@
   }
   .navbar 
   {
-    background-color: rgba(255, 255, 255, 0.589) !important;
     z-index: 1000;
     justify-content: space-between;
+  background-color: rgba(255, 255, 255, 0.589) !important;
+
   }
   .navbar .icon
   {
@@ -29,8 +29,79 @@
   }
   
 
+.downloadIcon
+{
+  transition: transform 0.3s ease;
+}
 
-  .navbar-expand-lg.expand {
-    height: 100vh; /* Full viewport height when expanded */
+.modeIcon
+{
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.downloadIcon:hover {
+  transform: translateY(-5px);
+}
+.modeIcon:hover{
+  transform: translateY(-5px);
+}
+
+.navbar-expand-lg.expand body 
+{
+  overflow-y: hidden;
+}
+
+
+
+
+
+
+/* Responsive styles */
+/* // X-Small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .nav-link {
+    margin: auto !important;
+}
+}
+
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {  
+    .nav-link {
+    margin: auto !important;
+}
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {  
+  .navbar-nav
+  {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
+  .nav-link {
+    margin: auto !important;
+}
+}
 
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .nav-link {
+    margin: auto !important;
+}
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1400.98px) {   
+}
+
+/* // For 2k Monitors, (more than 1401 px) */
+@media (min-width: 1401px) and (max-width: 1599.98px) {
+}
+
+@media (min-width: 1600px) and (max-width: 2559.98px) {
+}
+
+@media (min-width: 2560px) {
+}

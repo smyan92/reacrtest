@@ -14,7 +14,7 @@ const Tabpills = () => {
   };
 
   return (
-    <div className='TabpillsComp'>
+    <div className='TabpillsComp pb-5'>
 
 <Container>
       <Row>
@@ -46,9 +46,9 @@ const Tabpills = () => {
       <Col xxs lg="8">
       <div className="content-tabs">
         <div className={toggleState === 1 ? "content active-content" : "content"}>
-          <h1> <span className='text-orange'>Unique characteristics</span> of
+          <h1 className='mb-4'> <span className='text-orange'>Unique characteristics</span> of
           virtual or crypto assets</h1>
-          <p>Virtual or crypto assets have no intrinsic value and are not considered legal tender in many countries, including India. The value of these assets in transactions is determined solely by agreement between the parties, which may or may not correspond to the market value of the assets at the time of operation.</p>
+          <p className='mb-4'>Virtual or crypto assets have no intrinsic value and are not considered legal tender in many countries, including India. The value of these assets in transactions is determined solely by agreement between the parties, which may or may not correspond to the market value of the assets at the time of operation.</p>
        <img className='tabimg' src={Tab1} alt="My Image" />
         </div>
 
