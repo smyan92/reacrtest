@@ -14,7 +14,7 @@ function App() {
 
     const handleScroll = () => {
       
-      const sections = document.querySelectorAll('.section');
+      const sections = document.querySelectorAll('.scrollSection');
       
       let active = '';
 
@@ -91,8 +91,8 @@ function App() {
           </li>
         </ul>
       </nav>
-      <div className="content">
-        <Element name="section1" className="section" id="section1">
+      <div className="scrollContent">
+        <Element name="section1" className="scrollSection" id="section1">
        <div>
        <h2>Unique characteristics of
           virtual or crypto assets</h2>
@@ -100,10 +100,10 @@ function App() {
           <img className='tabimg' src={Tab1} alt="My Image" />
        </div>
         </Element>
-        <Element name="section2" className="section" id="section2">
+        <Element name="section2" className="scrollSection" id="section2">
           <h2>Section 2</h2>
         </Element>
-        <Element name="section3" className="section" id="section3">
+        <Element name="section3" className="scrollSection" id="section3">
           <h2>Section 3</h2>
         </Element>
       </div>

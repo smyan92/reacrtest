@@ -43,13 +43,13 @@ body {
     background-color: #555;
   }
   
-  .content {
+  .scrollContent {
     margin-left: 220px; /* Adjust this margin to match the width of the side navbar */
     padding: 20px;
     display: block;
   }
   
-  .section {
+  .scrollSection {
     height: 100vh;
     border-bottom: 1px solid #ddd;
     display: flex;
