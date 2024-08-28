@@ -1,0 +1,59 @@
+/* App.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  .App {
+    display: flex;
+  }
+  
+  .side-navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh;
+    background-color: #333;
+    color: #fff;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .side-navbar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .side-navbar li {
+    margin: 10px 0;
+  }
+  
+  .side-navbar a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+  }
+  
+  .side-navbar a.active {
+    background-color: #555;
+  }
+  
+  .content {
+    margin-left: 220px; /* Adjust this margin to match the width of the side navbar */
+    padding: 20px;
+    display: block;
+  }
+  
+  .section {
+    height: 100vh;
+    border-bottom: 1px solid #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
